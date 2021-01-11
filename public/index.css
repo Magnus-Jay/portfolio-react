@@ -8,10 +8,13 @@
 
 .body-image {
   background-image: url("./grayscale.jpg"); 
-  background-size: cover;
-  overflow: hidden;
+  background-size: auto;
+  /* overflow: hidden; */
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
+}
+.seanTest{
+  margin-bottom: 30px;
 }

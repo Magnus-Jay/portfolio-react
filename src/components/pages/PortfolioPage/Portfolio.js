@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Portfolio() {
   return (
-    <Container className="container" fluid>
+    <Container className="container page-padding" fluid>
       <Row className="row" id="rowTwo">
           <h1 id="port">GitHub Projects</h1>
       </Row>

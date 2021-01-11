@@ -4,6 +4,10 @@ body {
     background-size: cover;
 }
 
+.container {
+  height: 100vh;
+}
+
 #row-one {
     padding: 5px 10px 0 10px;
     display: flex;

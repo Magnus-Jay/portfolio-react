@@ -7,12 +7,13 @@ import Contact from "./components/pages/ContactPage/Contact";
 import Footer from "./components/footer.js"
 import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import Navbar from 'react-bootstrap/Navbar'
 
 function App() {
   return (
    <div> 
     <Router>
-      <div>
+      <div className="seanTest">
         <NavTabs />
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />

@@ -9,10 +9,10 @@ function Contact(props) {
    <Container> 
     <div className="container">
         <Row className="row">
-          <Col className="col-md-12" id="heading">
+          <div className="col-md-12" id="heading">
             <hr />
-          </ Col>
-          <Col className="col-md-6">
+          </div>
+          <div className="col-md-6">
             <h1>BIO</h1>
           <p>Welcome to my first fully built webpage using bootstrap! I am new to coding and have not had any experience
                 prior to attending this program. I am exctied to begin my journey and this first week has been quite intense
@@ -28,8 +28,8 @@ function Contact(props) {
                 wife, 4 children aged; 14,13,12, and 18 months! We also have one dog, three cats, and newly have become
                 parents to three very sweet goats!
             </p>
-          </ Col>
-          <Col className="col-md-6 contact-form">
+          </div>
+          <div className="col-md-6 contact-form">
           <h1>Contact</h1>
             <p>
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
@@ -43,7 +43,7 @@ function Contact(props) {
             <p>Check out my Github profile:</p>
             <button className="btn btn-dark" id="linked"><a href="https://github.com/Magnus-Jay">GitHub Profile</a></button>
 
-          </ Col>
+          </div>
         </ Row>
       </div>
       </ Container>  

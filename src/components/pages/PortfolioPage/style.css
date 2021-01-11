@@ -62,3 +62,7 @@ span {
 .row {
     justify-content: center;
 }
+
+.page-padding {
+    padding-bottom: 80px;
+}
