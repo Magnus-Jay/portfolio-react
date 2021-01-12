@@ -1,12 +1,12 @@
-body {
+/* body {
     background-color: grey;
     background-blend-mode: overlay;
     background-size: cover;
-}
+} */
 
-.container {
+/* .container {
   height: 100vh;
-}
+} */
 
 #row-one {
     padding: 5px 10px 0 10px;
@@ -58,3 +58,7 @@ p {
     width: 100%;
     height: auto;
   }
+
+.page-padding {
+    padding-bottom: 80px;
+}

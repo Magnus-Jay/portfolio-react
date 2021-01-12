@@ -1,16 +1,15 @@
 * body, html {
   background-color: unset !important;
   background-image: url("./grayscale.jpg");
-  /* background-size: auto; */
-  /* background-repeat: repeat-y; */
-  height: 100%;
+  background-size: cover;
+  /* height: 100%; */
 }
 
-.body-image {
+/* .body-image {
   background-image: url("./grayscale.jpg"); 
   background-size: auto;
-  /* overflow: hidden; */
-}
+
+} */
 
 h1 {
   font-family: 'Roboto Slab', serif;

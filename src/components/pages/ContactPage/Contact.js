@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 function Contact(props) {
   return (
    <Container> 
-    <div className="container">
+    <div className="container page-padding">
         <Row className="row">
           <div className="col-md-12" id="heading">
             <hr />

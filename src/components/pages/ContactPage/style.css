@@ -17,3 +17,7 @@ a {
     /* margin-top: 50px; */
     border-left: solid;
 }
+
+.page-padding {
+    padding-bottom: 50px;
+}

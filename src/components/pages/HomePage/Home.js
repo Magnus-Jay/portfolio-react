@@ -10,7 +10,7 @@ import Image from 'react-bootstrap/Image'
 
 function Home() {
   return (
-    <Container className='container' fluid>
+    <Container className='container page-padding' fluid>
       <h1 id="home-heading">Magnus Appel</h1>
       <Row>
         <Col md="auto">
