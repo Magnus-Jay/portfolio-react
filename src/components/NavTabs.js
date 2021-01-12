@@ -37,11 +37,15 @@ function NavTabs() {
     <>
   <Navbar bg="dark" variant="dark">
     {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
+      <Navbar.Brand href="#home"></Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
     <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
     <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
     <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Link>
     </Nav>
+    </ Navbar.Collapse>
   </Navbar>
 </>
   );
