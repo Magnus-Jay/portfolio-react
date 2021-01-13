@@ -14,9 +14,6 @@ function Contact(props) {
           </div>
           <div className="col-md-6">
             <h1>BIO</h1>
-          <p>Welcome to my first fully built webpage using bootstrap! I am new to coding and have not had any experience
-                prior to attending this program. I am exctied to begin my journey and this first week has been quite intense
-                so far!</p>
             <p>
                 I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
                 and have been enjoying the slower pace here, even if it just walking slower. Over the last five years as a
@@ -24,15 +21,13 @@ function Contact(props) {
                 showcase some of my work!
             </p>
             <p>
-                I have quite a large family at home that are rooting me on to have success in this program. This includes my
-                wife, 4 children aged; 14,13,12, and 18 months! We also have one dog, three cats, and newly have become
-                parents to three very sweet goats!
+               As a new programmger, I have found myself enjoying all aspects of development from front-end and styling to building express servers and databases. Take a look at my portfolio page or head over to my GitHub to check out some of my projects and work I have done.
             </p>
           </div>
           <div className="col-md-6 contact-form">
           <h1>Contact</h1>
             <p>
-              Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
+              Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the one listed below. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. Send me a connection request and say hi!
             </p>
             {/* <br /> */}
             <p>Email:   <a href="mailto:magnus86@uw.edu">magnus86@uw.edu</a></p>
