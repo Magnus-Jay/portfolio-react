@@ -16,7 +16,7 @@ function Contact(props) {
             <h1>BIO</h1>
             <p>
                 I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
-                and have been enjoying the slower pace here, even if it just walking slower. Over the last five years as a
+                and have been enjoying the slower pace here, even if it's just walking slower. Over the last five years as a
                 hobby I have worked to hone my craft in photography and look forward to building a website that will help
                 showcase some of my work!
             </p>
