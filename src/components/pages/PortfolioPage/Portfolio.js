@@ -20,10 +20,14 @@ function Portfolio() {
           <h1 id="port">GitHub Projects</h1>
       </Row>
       <Row className="row" id="rowTwo">
-        <Col md="auto" className="projectTwo">
-          <img src={dnd} id="pic-two" alt="deployed app link" />
+        <div className="proj-one-container">
+          <p id="fantasy-description">
+          The fantasy character creator app lets you digitize your character sheets for your table-top role playing games. It uses a widget based system to allow the user to pick and choose waht information they need and control all aspects of that data.
+        </p>
+        <div className="proj-one">
+        <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
-           <span>
+           <span className="spans">
             Fantasy Character Creator 
           <a href="https://stark-island-65376.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
@@ -32,10 +36,34 @@ function Portfolio() {
           <i class="fab fa-github mag-icon" aria-hidden="true"></i>
           </a >
           </span>
-          </h5 >  
-        </ Col>
+          </h5 >
+          </div>
+          </div>
       </Row>
+      <hr className="hr">
+      </hr>
       <Row className="row" id="rowThree">
+        <div className="proj-two-container">
+          <p id="fresh-description">
+          Fresh air is application that allows users to find hikes using their geo-location if they accept, or search by radius using a zipcode. Once a search is completed, hiking options are displayed with all pertinent trail information.
+        </p>
+        <div className="proj-two">
+        <img src={freshest} id="pic-one" alt="comet" />
+         <h5>
+           <span className="spans">
+           Fresh Air - Hiking and Food Finder
+          <a href="https://clubkemp.github.io/freshair/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
+          </a >
+          <a href="https://github.com/clubkemp/freshair" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
+          </a >
+          </span>
+          </h5 >
+          </div>
+          </div>
+      </Row>
+      {/* <Row className="row" id="rowThree">
         <Col md="auto" className="projectOne">
           <img src={freshest} id="pic-one" alt="comet" />
           <h5>
@@ -66,7 +94,7 @@ function Portfolio() {
           </span>
           </h5 > 
         </ Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 }

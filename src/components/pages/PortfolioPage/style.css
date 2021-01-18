@@ -9,7 +9,7 @@ p {
     max-width: 350px;
     min-height: 150px;
     max-height: 350px;
-    justify-content: center;
+    
 } 
 
 .port-link, a{
@@ -21,30 +21,11 @@ h1 {
 }
 
 
-#heading {
-    text-align: center;
+ #heading {
     padding-top: 40px;
     padding-bottom: 40px
 }
 
-/* .row {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 20px;
-}
-
-#rowTwo {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
-
-#port {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 .mag-icon{
     font-size: 20px; 
@@ -53,18 +34,36 @@ h1 {
 i {
     margin: 4px;
 }
-span {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 .row {
     justify-content: center;
-}
+} 
 
 .page-padding {
     padding-bottom: 80px;
 }
 
 
+.proj-one {
+    float: right;
+}
+
+
+.spans {
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.proj-one-containter {
+    float: right;
+    margin-top: 20px;
+}
+
+#fantasy-description {
+display: block;}
+
+hr {
+border-bottom: black;
+height: 5px;
+border-width: 2px;
+}
