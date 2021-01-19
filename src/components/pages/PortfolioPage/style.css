@@ -44,7 +44,7 @@ i {
 }
 
 
-.proj-one {
+.proj-one, .proj-three{
     float: right;
 }
 
@@ -54,12 +54,16 @@ margin-top: 20px;
 margin-left: 20px;
 }
 
-.proj-one-containter {
+.proj-one-containter, .proj-three-containter {
     float: right;
     margin-top: 20px;
 }
 
-#fantasy-description {
+.proj-two-container {
+    margin-bottom: 20px;
+}
+
+#fantasy-description, #note-description {
 display: block;}
 
 hr {

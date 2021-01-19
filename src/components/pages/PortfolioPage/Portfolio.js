@@ -63,6 +63,29 @@ function Portfolio() {
           </div>
           </div>
       </Row>
+      <hr className="hr">
+      </hr>
+      <Row className="row" id="rowFour">
+        <div className="proj-three-container">
+          <p id="note-description">
+          The note taking application allows a user to create, save and delete notes. The notes are saved to a users local storage in the browser.
+        </p>
+        <div className="proj-three">
+        <img src={Note} id="pic-three" alt="deployed app link" />
+         <h5>
+           <span className="spans">
+           Note Taking Application
+          <a href="https://calm-wildwood-27402.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
+          </a >
+          <a href="https://github.com/Magnus-Jay/note-taker" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
+          </a >
+          </span>
+          </h5 >
+          </div>
+          </div>
+      </Row>
       {/* <Row className="row" id="rowThree">
         <Col md="auto" className="projectOne">
           <img src={freshest} id="pic-one" alt="comet" />
