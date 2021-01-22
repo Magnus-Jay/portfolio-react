@@ -56,18 +56,23 @@ align-content: center;
 }
 
 .proj-one-containter {
-    justify-content: center;
+    
 }
 
 .proj-two-container {
     /* margin-bottom: 20px; */
 }
 
-/* #fantasy-description, #note-description {
-display: block;} */
+#fantasy-description, #note-description {
+    /* margin-top: 40px; */
+}
 
 /* hr {
 border-bottom: black;
 height: 5px;
 border-width: 2px;
 } */
+
+.col-6 {
+    margin: auto;
+}

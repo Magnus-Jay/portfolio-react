@@ -21,10 +21,7 @@ function Portfolio() {
       </Row>
       <Row className="row" id="rowTwo">
         <div className="proj-one-container row">
-          <p id="fantasy-description" className="col-6">
-          The fantasy character creator app lets you digitize your character sheets for your table-top role playing games. It uses a widget based system to allow the user to pick and choose waht information they need and control all aspects of that data.
-        </p>
-        <div className="proj-one col-6" >
+        <div className="proj-one" >
         <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
            <span className="spans">
@@ -38,6 +35,9 @@ function Portfolio() {
           </span>
           </h5 >
           </div>
+          <p id="fantasy-description" className="col-6">
+          The fantasy character creator app lets you digitize your character sheets for your table-top role playing games. It uses a widget based system to allow the user to pick and choose waht information they need and control all aspects of that data.
+        </p>
           </div>
       </Row>
       <hr className="hr">
@@ -67,9 +67,6 @@ function Portfolio() {
       </hr>
       <Row className="row" id="rowFour">
         <div className="proj-three-container row">
-          <p id="note-description" className="col-6">
-          The note taking application allows a user to create, save and delete notes. The notes are saved to a users local storage in the browser.
-        </p>
         <div className="proj-three">
         <img src={Note} id="pic-three" alt="deployed app link" />
          <h5>
@@ -84,6 +81,9 @@ function Portfolio() {
           </span>
           </h5 >
           </div>
+          <p id="note-description" className="col-6">
+          The note taking application allows a user to create, save and delete notes. The notes are saved to a users local storage in the browser.
+        </p>
           </div>
       </Row>
     </Container>
