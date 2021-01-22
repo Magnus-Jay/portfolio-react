@@ -24,7 +24,7 @@ function Portfolio() {
         <div className="proj-one" >
         <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
-           <span className="spans">
+           <span className="spans push">
             Fantasy Character Creator 
           <a href="https://stark-island-65376.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
@@ -37,6 +37,12 @@ function Portfolio() {
           </div>
           <p id="fantasy-description" className="col-6">
           The fantasy character creator app lets you digitize your character sheets for your table-top role playing games. It uses a widget based system to allow the user to pick and choose waht information they need and control all aspects of that data.
+          <br></br>
+          <br></br>
+        <p className="bolder">Technologies</p>
+        <p><span className="bolder">Front-end:</span> Express-Handlebars,PaperCSS,jQuery
+          <br></br>
+        <span className="bolder">Back-end:</span> Dotenv,Express, Express-session, Sequelize, MySQL2, Nodemailer</p>
         </p>
           </div>
       </Row>
@@ -46,11 +52,17 @@ function Portfolio() {
         <div className="proj-two-container row">
           <p id="fresh-description" className="col-6">
           Fresh air is application that allows users to find hikes using their geo-location if they accept, or search by radius using a zipcode. Once a search is completed, hiking options are displayed with all pertinent trail information.
+          <br></br>
+          <br></br>
+        <p className="bolder">Technologies</p>
+        <p><span className="bolder">Front-end:</span> Express-Handlebars,PaperCSS,jQuery
+          <br></br>
+        <span className="bolder">Back-end:</span> Dotenv,Express, Express-session, Sequelize, MySQL2, Nodemailer</p>
         </p>
         <div className="proj-two">
         <img src={freshest} id="pic-one" alt="comet" />
          <h5>
-           <span className="spans">
+           <span className="spans push">
            Fresh Air - Hiking and Food Finder
           <a href="https://clubkemp.github.io/freshair/" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
@@ -70,7 +82,7 @@ function Portfolio() {
         <div className="proj-three">
         <img src={Note} id="pic-three" alt="deployed app link" />
          <h5>
-           <span className="spans">
+           <span className="spans push">
            Note Taking Application
           <a href="https://calm-wildwood-27402.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>

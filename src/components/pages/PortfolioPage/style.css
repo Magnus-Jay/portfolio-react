@@ -8,6 +8,8 @@ p {
     max-width: 350px;
     min-height: 150px;
     max-height: 350px;
+    /* margin-left: 15px;
+    padding-left: 15px; */
     
     
 } 
@@ -20,12 +22,10 @@ h1 {
     color: black;
 }
 
-
  #heading {
     padding-top: 40px;
     padding-bottom: 40px
 }
-
 
 .mag-icon{
     font-size: 20px; 
@@ -45,34 +45,29 @@ i {
 }
 
 
-.proj-one, .proj-three{
-align-content: center;
+.proj-one, .proj-three, .proj-two {
+/* align-content: center; */
+margin-left: auto;
+padding-left: 10px;
+margin-right: auto;
 
 }
-
 
 .spans {
     justify-content: center;
 }
 
-.proj-one-containter {
-    
-}
-
-.proj-two-container {
-    /* margin-bottom: 20px; */
-}
-
-#fantasy-description, #note-description {
-    /* margin-top: 40px; */
-}
-
-/* hr {
-border-bottom: black;
-height: 5px;
-border-width: 2px;
-} */
 
 .col-6 {
     margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bolder {
+    font-weight: bold;
+}
+
+.push {
+    margin-left: 10px;
+    padding-left: 10px;
 }
