@@ -14,6 +14,10 @@ p {
     
 } 
 
+#pic-three {
+    padding-top: 20px;
+}
+
 .port-link, a{
     color: rgb(56, 56, 56);
 }
@@ -36,8 +40,9 @@ i {
     justify-content: center;
 }
 
-#rowTwo, #rowThree {
+#rowTwo, #rowThree, #rowFour {
     justify-content: center; 
+    padding-bottom: 10px;
 } 
 
 .page-padding {
@@ -74,4 +79,12 @@ margin-right: auto;
 
 #rowTwo {
     padding-top: 20px;
+}
+
+.proj-one-container,.proj-two-container {
+    border-bottom: 1px solid black;
+}
+
+.proj-two-container {
+   padding-bottom: 15px;
 }
