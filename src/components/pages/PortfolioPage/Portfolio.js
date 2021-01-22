@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import freshest from "../../../assets/freshest.png";
+import freshAir from "../../../assets/freshAir.gif";
 import dnd from "../../../assets/dnd.png";
 import Note from "../../../assets/note-taker.png";
 import { Container } from "react-bootstrap";
@@ -71,7 +71,7 @@ function Portfolio() {
         <span className="bolder">Back-end:</span> Dotenv,Express, Express-session, Sequelize, MySQL2, Nodemailer</p>
         </p>
         <div className="proj-two">
-        <img src={freshest} id="pic-one" alt="comet" />
+        <img src={freshAir} id="pic-one" alt="comet" />
           </div>
           </div>
       </Row>
