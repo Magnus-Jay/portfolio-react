@@ -36,7 +36,7 @@ i {
     justify-content: center;
 }
 
-#rowTwo {
+#rowTwo, #rowThree {
     justify-content: center; 
 } 
 
@@ -70,4 +70,8 @@ margin-right: auto;
 .push {
     margin-left: 10px;
     padding-left: 10px;
+}
+
+#rowTwo {
+    padding-top: 20px;
 }

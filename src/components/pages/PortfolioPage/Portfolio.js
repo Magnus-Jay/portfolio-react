@@ -17,7 +17,17 @@ function Portfolio() {
   return (
     <Container className="container page-padding" fluid>
       <Row className="row" id="rowTwo">
-          <h1 id="port">GitHub Projects</h1>
+      <h5>
+           <span className="spans push">
+            Fantasy Character Creator 
+          <a href="https://stark-island-65376.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
+          </a >
+          <a href="https://github.com/artuis/dnd-action-calculator" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
+          </a >
+          </span>
+          </h5 >
       </Row>
       <Row className="row" id="rowTwo">
         <div className="proj-one-container row">
@@ -49,6 +59,19 @@ function Portfolio() {
       <hr className="hr">
       </hr>
       <Row className="row" id="rowThree">
+      <h5 className="title">
+           <span className="spans push">
+           Fresh Air- Hiking/Food
+          <a href="https://clubkemp.github.io/freshair/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
+          </a >
+          <a href="https://github.com/clubkemp/freshair" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
+          </a >
+          </span>
+          </h5 >
+          </ Row>
+          <Row className="row" id="rowFive">
         <div className="proj-two-container row">
           <p id="fresh-description" className="col-6">
           Fresh air is application that allows users to find hikes using their geo-location if they accept, or search by radius using a zipcode. Once a search is completed, hiking options are displayed with all pertinent trail information.
@@ -61,17 +84,6 @@ function Portfolio() {
         </p>
         <div className="proj-two">
         <img src={freshest} id="pic-one" alt="comet" />
-         <h5>
-           <span className="spans push">
-           Fresh Air- Hiking/Food
-          <a href="https://clubkemp.github.io/freshair/" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
-          </a >
-          <a href="https://github.com/clubkemp/freshair" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
-          </a >
-          </span>
-          </h5 >
           </div>
           </div>
       </Row>
