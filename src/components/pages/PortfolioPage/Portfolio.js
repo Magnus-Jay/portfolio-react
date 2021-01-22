@@ -63,7 +63,7 @@ function Portfolio() {
         <img src={freshest} id="pic-one" alt="comet" />
          <h5>
            <span className="spans push">
-           Fresh Air - Hiking and Food Finder
+           Fresh Air- Hiking/Food
           <a href="https://clubkemp.github.io/freshair/" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
