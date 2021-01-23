@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import snapseed from "../../../assets/snapseed.jpg";
 import "./style.css"
 import { Container, Col } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
@@ -12,7 +13,8 @@ function Contact(props) {
           <div className="col-md-12" id="heading">
             <hr />
           </div>
-          <div className="col-md-6">
+          <img src={snapseed} id="pic-six" alt="downtown Seattle skyline" />
+          {/* <div className="col-md-6">
             <h1>BIO</h1>
             <p>
                 I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
@@ -23,14 +25,15 @@ function Contact(props) {
             <p>
                As a new programmger, I have found myself enjoying all aspects of development from front-end and styling to building express servers and databases. Take a look at my portfolio page or head over to my GitHub to check out some of my projects and work I have done.
             </p>
-          </div>
+          </div> */}
           <div className="col-md-6 contact-form">
           <h1>Contact</h1>
             <p>
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the one listed below. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. Send me a connection request and say hi!
             </p>
             {/* <br /> */}
-            <p>Email:  <button className="btn btn-dark" id="linked"><a href="mailto:magnus86@uw.edu">magnus86@uw.edu</a></button></p>
+            <p>Email:</p>  
+            <p><button className="btn btn-dark" id="linked"><a href="mailto:magnus86@uw.edu">magnus86@uw.edu</a></button></p>
             <p>Check out my work history and my professional profile on:</p>
             <button className="btn btn-dark" id="linked"><a href="https://www.linkedin.com/in/magnusappe/">LinkedIn Profile</a></button>
             <br />
