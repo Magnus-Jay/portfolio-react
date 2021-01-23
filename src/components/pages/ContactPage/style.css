@@ -13,16 +13,23 @@ a {
 .page-padding {
     padding-bottom: 50px;
 }
-/* 
-h1 {
-    text-align: center;
-} */
+ 
+.row {
+    justify-content: center;
+    margin: auto;
+}
 
 #pic-six {
     max-width: 400px;
     max-height: 400px;
     margin-top: 40px;
+    border-radius: 8px;
 }
+/* 
+#heading {
+    margin-left: auto;
+margin-right: auto;
+} */
 
 .contact-form {
     
