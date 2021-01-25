@@ -14,6 +14,11 @@ p {
     
 } 
 
+/* #pic-two {
+    max-height: 500px;
+    max-width: 400px;
+} */
+
 #pic-three {
     padding-top: 20px;
 }
