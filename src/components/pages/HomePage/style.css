@@ -62,3 +62,14 @@ p {
 .page-padding {
     padding-bottom: 80px;
 }
+
+.bio-heading {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.language-heading {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+ 
