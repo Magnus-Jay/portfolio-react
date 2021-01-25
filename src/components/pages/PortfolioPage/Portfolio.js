@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import freshAir from "../../../assets/freshAir.gif";
 import dnd from "../../../assets/dnd.png";
-import fantasyChar from "../../../assets/fantasyChar.gif";
 import Note from "../../../assets/note-taker.png";
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
@@ -33,7 +32,7 @@ function Portfolio() {
       <Row className="row" id="rowTwo">
         <div className="proj-one-container row">
         <div className="proj-one" >
-        <img src={fantasyChar} id="pic-two" alt="deployed app link" />
+        <img src={dnd} id="pic-two" alt="deployed app link" />
           </div>
           <p id="fantasy-description" className="col-6">
           The fantasy character creator app lets you digitize your character sheets for your table-top role playing games. It uses a widget based system to allow the user to pick and choose waht information they need and control all aspects of that data.
