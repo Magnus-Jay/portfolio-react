@@ -2,7 +2,7 @@ p {
     color: black;
 }
 
-#pic-one, #pic-two, #pic-three {
+#pic-one, #pic-two, #pic-three, #pic-seven {
     border-radius: 8px;
     min-width: 150px;
     max-width: 350px;
@@ -45,17 +45,17 @@ i {
     justify-content: center;
 }
 
-#rowTwo, #rowThree, #rowFour {
+#rowTwo, #rowThree, #rowFour, #rowSeven {
     justify-content: center; 
     padding-bottom: 10px;
 } 
 
 .page-padding {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 
-.proj-one, .proj-three, .proj-two {
+.proj-one, .proj-three, .proj-two, .proj-four {
 /* align-content: center; */
 margin-left: auto;
 padding-left: 10px;
@@ -86,10 +86,18 @@ margin-right: auto;
     padding-top: 20px;
 }
 
-.proj-one-container,.proj-two-container {
+#rowSeven {
+    padding-top: 30px;
+}
+
+.proj-one-container,.proj-two-container, .proj-three-container {
     border-bottom: 1px solid black;
 }
 
 .proj-two-container {
    padding-bottom: 15px;
+}
+
+.proj-four-container {
+    padding-top: 20px;
 }

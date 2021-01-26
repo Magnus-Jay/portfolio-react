@@ -3,6 +3,7 @@ import "./style.css";
 import freshAir from "../../../assets/freshAir.gif";
 import dnd from "../../../assets/dnd.png";
 import fantasyChar from "../../../assets/fantasyChar.gif";
+import passGen from "../../../assets/passGen.gif";
 import Note from "../../../assets/note-taker.png";
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
@@ -104,6 +105,32 @@ function Portfolio() {
           <br></br>
         <span className="bolder">Back-end:</span> Dotenv,Express, Express-session, Sequelize, MySQL2, Nodemailer</p>
         </p>
+          </div>
+      </Row>
+      <Row className="row" id="rowSeven">
+      <h5 className="title">
+           <span className="spans push">
+           Password Generator
+          <a href="https://github.com/Magnus-Jay/password--gen" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
+          </a >
+          </span>
+          </h5 >
+          </ Row>
+          <Row className="row" id="rowEight">
+        <div className="proj-four-container row">
+          <p id="pass-description" className="col-6">
+          The Password Generator application is simple but powerful. It is powered using a simple html index page to display visual cues for the user. Using plain Javascript through if statements and prompts, the user is asked to choose a length between 8-128 characters, and if they want to include lower or upper case letters, as well as numbers.
+          <br></br>
+          <br></br>
+        <p className="bolder">Technologies</p>
+        <p><span className="bolder">Front-end:</span> HTML and Javascript
+          <br></br>
+        <span className="bolder">Back-end:</span> none, the app is ran in the broswer from the html file</p>
+        </p>
+        <div className="proj-four">
+        <img src={passGen} id="pic-seven" alt="comet" />
+          </div>
           </div>
       </Row>
     </Container>
