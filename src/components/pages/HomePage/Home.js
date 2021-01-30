@@ -22,7 +22,7 @@ function Home() {
       <Row className="home-row">
       <div className="col-md-6 bio-heading">
       <h1 className="bio-heading">
-          Bio
+          <span className="bio-h">Bio</span>
         </h1>
         <div className="bio-info"><p>I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
                 and have been enjoying the pace here, even if it's just walking slower. Over the last five years as a
@@ -36,7 +36,7 @@ function Home() {
         </div>
         <div className="col-md-6 language-heading">
         <h1>
-          Technical Skills
+          <span className="tech-h">Technical Skills</span>
         </h1>
         <div className="language-info">
           <p><span className="bolder">Languages:</span>
