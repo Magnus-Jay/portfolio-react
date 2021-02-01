@@ -4,7 +4,7 @@ import freshAir from "../../../assets/freshAir.gif";
 import dnd from "../../../assets/dnd.png";
 import fantasyChar from "../../../assets/fantasyChar.gif";
 import passGen from "../../../assets/passGen.gif";
-import Note from "../../../assets/note-taker.png";
+import Note from "../../../assets/note-taker.gif";
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
